@@ -19,7 +19,7 @@ string Animal::getName()
   return this->name;
 }
 
-void Animal::setMessage(string massage)
+void Animal::setMessage(string message)
 {
   this->message = message;
 }
