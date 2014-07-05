@@ -40,6 +40,6 @@ bool Animal::makeNoise()
     return false;
   }
 
-  std::cout << this->name + "> " + this->message << std::endl;
+  this->noise = this->name + "> " + this->message;
   return true;
 }

@@ -7,6 +7,7 @@ class Animal
   private:
     string name;
     string message;
+    string noise;
 
   public:
     Animal();
